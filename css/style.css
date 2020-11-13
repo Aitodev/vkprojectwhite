@@ -3595,7 +3595,7 @@ border:solid 1px #ddd;
 }
 .de_tab.tab_style_4 .de_nav.de_nav_dark li h3,
 .de_tab.tab_style_4 .de_nav.de_nav_dark li:hover h3 span{
-	color:#ffffff !important;
+	color:#ffffff;
 }
 .de_tab.tab_style_4 .de_nav.de_nav_dark li h4{
 	color:rgba(255,255,255,.5);
