@@ -56,7 +56,8 @@
 			@property until {Date|number|string} The date/time to count down to, or number of seconds
 						offset from now, or string of amounts and units for offset(s) from now:
 						'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds.
-			@example until: new Date(2013, 12-1, 25, 13, 30)
+			@example until: new Date(2015, 12-1, 25, 13, 30)
+			
  until: +300
  until: '+1O -2D'
 			@property [since] {Date|number|string} The date/time to count up from, or
@@ -137,7 +138,7 @@
 			@property [isRTL=false] {boolean} True for right-to-left languages, false for left-to-right. */
 		regionalOptions: { // Available regional settings, indexed by language/country code
 			'': { // Default regional settings - English/US
-				labels: ['Years', 'Months', 'Weeks', 'Days', 'Hours', 'Minutes', 'Seconds'],
+				labels: ['Год', 'Месяцев', 'Недель', 'Дней', 'Часов', 'Минут', 'Секунд'],
 				labels1: ['Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Second'],
 				compactLabels: ['y', 'm', 'w', 'd'],
 				whichLabels: null,
