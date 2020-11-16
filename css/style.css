@@ -540,7 +540,7 @@ overflow:visible;
 	
 	
 	#mainmenu.dotted-separator li a:after{
-	content:"\f111";
+	content:".";
 	font-size:6px;
 	}	
 	
