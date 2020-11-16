@@ -134,7 +134,7 @@
 					
 					<div style="" class="tp-static-layers">
                             <div
-                                class="text-center tp-caption size-28 font-weight-bold text-white tp-static-layer"
+                                class="text-center tp-caption size-28 font-weight-bold text-white"
                                 data-x="['center','center','center','center']"
                                 data-hoffset="['0']"
                                 data-y="['top','top','top','top']"
@@ -1100,9 +1100,10 @@
     <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
     <script>
-        jQuery(document).ready(function() {
+        $(document).ready(function() {
             // revolution slider
-            jQuery("#slider-revolution").revolution({
+            $("#slider-revolution").revolution({
+                navigation : false,
                 sliderType: "standard",
                 sliderLayout: "fullwidth",
                 delay: 5000,

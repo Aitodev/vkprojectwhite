@@ -7500,3 +7500,7 @@ display:table;
 		display:none;
 	}
 }
+
+.tparrows {
+	display: none !important;
+}
