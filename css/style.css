@@ -7524,3 +7524,12 @@ display:table;
 .tparrows {
 	display: none !important;
 }
+
+.buttom-settings{
+	margin-top: 550px;
+}
+@media only screen and(max-width:1020px){
+	.btn-custom{
+		margin-left: 50%;
+	}
+}

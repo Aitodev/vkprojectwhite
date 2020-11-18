@@ -139,7 +139,7 @@
 		regionalOptions: { // Available regional settings, indexed by language/country code
 			'': { // Default regional settings - English/US
 				labels: ['Год', 'Месяцев', 'Недель', 'Дней', 'Часов', 'Минут', 'Секунд'],
-				labels1: ['Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Second'],
+				labels1: ['Год', 'Месяцев', 'Недель', 'Дней', 'Часов', 'Минут', 'Секунд'],
 				compactLabels: ['y', 'm', 'w', 'd'],
 				whichLabels: null,
 				digits: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
